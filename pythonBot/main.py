@@ -6,8 +6,6 @@ import random
 from replit import db
 from keep_alive import keep_alive
 
-client = discord.Client()
-
 sad_words = ["sad", "depressed", "unhappy", "angry", "miserable", "depressing"]
 
 starter_encouragements = [
@@ -16,15 +14,20 @@ starter_encouragements = [
   "You are a great person/bot!"
 ]
 
+# init client
+client = discord.Client()
+
 if "responding" not in db.keys():
   db["responding"] = True
-  
+
+ # get a random quote from the bot 
 def get_quote():
   response = requests.get("https://zenquotes.io/api/random")
   json_data = json.loads(response.text)
   quote = json_data[0]['q'] + " -" + json_data[0]['a']
   return(quote)
   
+# get an encouragement
 def update_encouragements(encouraging_message):
   if "encouragements" in db.keys():
     encouragements = db["encouragements"]
@@ -32,13 +35,14 @@ def update_encouragements(encouraging_message):
     db["encouragements"] = encouragements
   else:
     db["encouragements"] = [encouraging_message]
-  
+
+# delete the encouragement
 def delete_encouragment(index):
   encouragements = db["encouragements"]
   if len(encouragements) > index:
     del encouragements[index]
     db["encouragements"] = encouragements
-  
+
 @client.event
 async def on_ready():
   print('We have logged in as {0.user}'.format(client))
