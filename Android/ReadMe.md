@@ -1,1 +1,1 @@
-e-commerce app
+This Repository has Android Projcts for HAcktober fest
