@@ -5,33 +5,21 @@ This is a open source project dedicated to hacktober fest
 Add any project in any programming language
 
 
--🪄 C
+<img src="https://user-images.githubusercontent.com/112252422/195139528-9cef67df-0abd-4add-8f28-97d37db7c290.png" width="50" height="50"> <img src="https://user-images.githubusercontent.com/112252422/195141152-e41d311e-84fa-4421-8c28-84fee6339395.png" width="50" height="50">
+<img src="https://user-images.githubusercontent.com/112252422/195142362-25139349-64ec-4b03-9cc4-83202bc97d7e.png" width="50" height="50">
+<img src="https://user-images.githubusercontent.com/112252422/195142746-5afbf78b-ed9a-42df-b8d0-6bac98caf2c9.png" width="50" height="50">
+<img src="https://user-images.githubusercontent.com/112252422/195142950-16826640-c518-4296-a357-751ed6d2805d.png" width="50" height="50"><br>
+<img src="https://user-images.githubusercontent.com/112252422/195143195-0a6d3651-ef5a-4783-bf3f-e6a00ec99b23.png" width="50" height="50">
+<img src="https://user-images.githubusercontent.com/112252422/195143230-8d3d8235-b123-474a-a0b2-13cdd39b1d7a.png" width="50" height="50">
+<img src="https://user-images.githubusercontent.com/112252422/195143350-7a017a15-58c3-487f-b6ca-1b04e1c9dfd7.png" width="50" height="50">
+<img src="https://user-images.githubusercontent.com/112252422/195143425-2f3cf480-4b08-431e-9ed0-83c313e50076.png" width="50" height="50">
 
--🪄 C++
+⚫The PR would **not be merged** if not mentiond in the server.🙅
 
--🪄 C#
-
--🪄 PHP
-
--🪄 Java
-
--🪄 Python
-
--🪄 Javascript
-
--🪄 WebDev
-
--🪄 android
+⚫DSA problem-solution would not be accepted ❌
 
 
-The PR would not be merged if not mentiond in the server.
-
-
-DSA problem-solution would not be accepted.
-
-
-
-Do drop a follow if you like my work 😀 
+⚫Do drop a follow if you like my work 😀 
 
 
 
